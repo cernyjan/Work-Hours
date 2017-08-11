@@ -1,0 +1,22 @@
+{
+    "name": "Work Hours",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "Time",
+    "icons": { "128": "icon128.png" },
+    "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["jquery-3.2.1.min.js"]
+    }
+    ],    
+    
+    "browser_action": {
+        "default_icon": "icon128.png",
+        "default_popup": "popup.html"
+    },
+    
+    "permissions": [
+        "tabs", "http://walrus.gmc.net/workhours/*"
+    ]
+}
