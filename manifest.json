@@ -1,6 +1,6 @@
 {
     "name": "Work Hours",
-    "version": "1.0",
+    "version": "1.1",
     "manifest_version": 2,
     "description": "Time",
     "icons": { "128": "icon128.png" },

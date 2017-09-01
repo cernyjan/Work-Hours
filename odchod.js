@@ -20,5 +20,5 @@ h = checkTime(h);
 var pattern = "input#MRepeater_theDataList_DayRepeater_"+dd+"_theRepeater_"+dd+"_TxtAddFrom";
 $(pattern).val(h+":"+m);
 
-var input = document.getElementById("MRepeater_theDataList_submit_allTop_" + (dd + 1));
+var input = document.getElementById("MRepeater_theDataList_submit_all");
 input.click();
