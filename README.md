@@ -1,2 +1,3 @@
-# Work-Hours
-chrome extension for Work Hours
+# Work Hours
+
+This add-on injects JavaScript into Work Hours web pages for easy Punch in and Punch out.
