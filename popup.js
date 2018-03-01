@@ -1,4 +1,3 @@
-
 $(function(){
     var button = $('<button>', {text: 'Punch in', width: '150px', height: '50px', id: "button"});
     var button2 = $('<button>', {text: 'Punch out', width: '150px', height: '50px', id: "button2"});
